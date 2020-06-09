@@ -21,8 +21,10 @@ public class ProductoServiceImp implements ProductoService {
 	}
 
 	@Override
-	public Producto listarId(int id) {
-		return repositorio.findById(id);
+	public Producto listarId(String id) {
+		//return repositorio.findById(id);
+		// TODO Auto-generated method stub
+					return null;
 	}
 
 	@Override
@@ -36,12 +38,14 @@ public class ProductoServiceImp implements ProductoService {
 	}
 
 	@Override
-	public Producto delete(int id) {
-		Producto p = repositorio.findById(id);
+	public Producto delete(String id) {
+		/*Producto p = repositorio.findById(id);
 		if (p != null) {
 			repositorio.delete(p);
 		}
-		return p;
+		return p;*/
+		// TODO Auto-generated method stub
+					return null;
 	}
 
 }

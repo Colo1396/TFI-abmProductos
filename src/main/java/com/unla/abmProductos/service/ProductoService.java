@@ -8,12 +8,12 @@ public interface ProductoService {
 
 	public List<Producto> listar();
 
-	public Producto listarId(int id);
+	public Producto listarId(String id);
 
 	public Producto add(Producto p);
 
 	public Producto edit(Producto p);
 
-	public Producto delete(int id);
+	public Producto delete(String id);
 
 }
